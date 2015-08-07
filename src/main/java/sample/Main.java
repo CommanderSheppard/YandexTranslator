@@ -2,7 +2,6 @@ package sample;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -20,7 +19,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         Properties p = System.getProperties();
-        p.list(System.out);
         ByteArrayOutputStream os = new ByteArrayOutputStream();
         DataOutputStream dos = new DataOutputStream(os);
         try {
