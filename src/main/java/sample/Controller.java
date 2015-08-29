@@ -69,7 +69,7 @@ public class Controller {
                         "tt:Татарский uk:Украинский uz:Узбекский vi:Вьетнамский zh:Китайский";
         ObservableList languages = FXCollections.observableArrayList();
         String parts[] = tempo.split(" ");
-        languages.addAll(Arrays.asList(parts).subList(0, parts.length - 1));
+        languages.addAll(Arrays.asList(parts));
         cb.getItems().addAll(languages);
     }
 }
